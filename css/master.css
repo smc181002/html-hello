@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  outline: 0;
+  margin: 0;
+  font-family: 'Poppins', 'Montserrat', 'Jost', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+body{
+  color: #FFFFFFCC;
+  background: #292929;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  display: flex;
+}
+
+div.center{
+  display: flex;
+  justify-content: center;
+}
+
+div.img{
+  padding: 20px;
+}
+
+.heading{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.heading .name{
+  font-size: 46px;
+  font-weight: 700 !important;
+  color: #FFFFFF;
+}
+
+.version{
+  color:
+}
+
+.buttons{
+  margin: 40px 0;
+}
+
+
+.github{
+  /* background: none !important;
+  box-shadow: none !important; */
+  border: 1px solid #FFFFFF44 !important;
+  box-sizing: border-box !important;
+  color: #FFFFFFCC !important;
+}
+
+.linked-in{
+  background-color: #4870FF !important;
+  box-shadow: none !important;
+}
+
+.github, .linked-in{
+  margin: 0 25px !important;
+  padding: 10px 40px !important;
+  height: auto !important;
+  border-radius: 5px !important;
+}
+
+div.content p {
+  /* margin-bottom: 50px; */
+}
+
+i.fab{
+  margin-right: 10px;
+}
+
+.version{
+  color: #FFA1A1;
+  font-size: 20px;
+  font-weight: 600;
+}
